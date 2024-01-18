@@ -1,0 +1,39 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Hugo Demo'
+theme = 'PaperMod'
+params.cover.linkFullImages = true
+params.ShowBreadCrumbs = true
+params.ShowReadingTime = true
+params.ShowShareButtons = true
+params.ShowPostNavLinks = true
+
+[params.homeInfoParams]
+Title = "Hello Stranger"
+Content = "Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff"
+[[params.socialIcons]]
+name = "facebook"
+url = "https://facebook.com"
+[[params.socialIcons]]
+name = "twirter"
+url = "https://twitter.com"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com"
+
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30

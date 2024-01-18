@@ -1,0 +1,22 @@
+{
+  "params": {
+    "homeInfoParams": {
+      "Title": "Hello Stranger",
+      "Content": "Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff"
+    },
+    "socialIcons": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com"
+      },
+      {
+        "name": "twirter",
+        "url": "https://twitter.com"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com"
+      }
+    ]
+  }
+}
